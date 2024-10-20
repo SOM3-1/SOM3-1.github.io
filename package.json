@@ -41,6 +41,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
-  },
-  "homepage": "https://SOM3-1.github.io/dush-portfolio"
+  }
 }
