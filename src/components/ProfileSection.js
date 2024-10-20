@@ -89,19 +89,20 @@ const ProfileSection = () => {
       <Container>
         <Grid container spacing={6} alignItems="center">
           <Grid item xs={12} md={6}>
-            <Typography
-              variant="h1"
-              sx={{
-                fontSize: '3rem',
-                fontWeight: 800,
-                color: '#ffffff',
-                marginBottom: '1.5rem',
-                textShadow: '0px 0px 10px rgba(124, 114, 255, 0.8)',
-                filter: 'drop-shadow(0 0 1px rgba(255, 255, 0, 0.8))',
-              }}
-            >
-              Dushyanth N Gowda
-            </Typography>
+          <Typography
+  variant="h1"
+  sx={{
+    fontSize: '3rem',
+    fontWeight: 800,
+    color: '#ffffff',
+    marginBottom: '1.5rem',
+    textShadow: '0px 0px 10px rgba(124, 114, 255, 0.8)',
+    filter: 'drop-shadow(0 0 1px rgba(255, 255, 0, 0.8))',
+  }}
+>
+  Dushyanth N <br /> Gowda
+</Typography>
+
             <Box sx={{ color: '#ffffff', zIndex: 2, position: 'relative' }}>
               <Typography variant="body1" paragraph sx={{ fontSize: '1.2rem', color: '#e0e0e0', marginBottom: '1rem' }}>
                 <strong>About Me:</strong> Hi, I'm Dushyanth N Gowda, a passionate software engineer with 5 years of experience in front-end, mobile, and software development. Currently, I'm pursuing a Master's in Software Engineering at UT Arlington. I specialize in building scalable applications using React, TypeScript, JavaScript, and Java, focusing on enhancing user experiences and optimizing workflows.
