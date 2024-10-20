@@ -5,8 +5,8 @@ const TiltCard = ({
   children,
   backgroundColor = '#1c1f26',
   textColor = '#e0e0e0',
-  spotlightColor = 'rgba(141, 232, 252, 0.4)', // Default spotlight color
-  spotlightSize = 150, // Default spotlight size
+  spotlightColor = 'rgba(141, 232, 252, 0.4)',
+  spotlightSize = 150,
   tiltIntensity = 10,
 }) => {
   const [mousePosition, setMousePosition] = useState({ x: 0.5, y: 0.5 });
@@ -56,7 +56,7 @@ const TiltCard = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => {
         setIsHovered(false);
-        setMousePosition({ x: 0.5, y: 0.5 }); // Reset to center
+        setMousePosition({ x: 0.5, y: 0.5 });
       }}
     >
       {children}

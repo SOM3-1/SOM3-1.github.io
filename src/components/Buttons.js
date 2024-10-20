@@ -2,18 +2,22 @@ import React from 'react';
 import { Box, Button } from '@mui/material';
 
 export const UseableButtons = () => {
+    const openInNewTab = (url) => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    };
+
     return (
         <Box sx={{ mt: 4, textAlign: 'center', display: 'flex', justifyContent: 'flex-start', gap: 2 }}>
             <Button
                 variant="contained"
                 color="primary"
-                href="https://www.linkedin.com/in/dushyanth-n-gowda-672b7b170/"
+                onClick={() => openInNewTab('https://www.linkedin.com/in/dushyanth-n-gowda-672b7b170/')}
                 sx={{
                     textTransform: 'none',
                     fontSize: '1.2rem',
                     padding: '12px 24px',
                     backgroundColor: '#6f42c1',
-                    color: 'white', // Set text color to white
+                    color: 'white',
                     '&:hover': {
                         backgroundColor: '#5a34a0',
                     },
@@ -24,13 +28,13 @@ export const UseableButtons = () => {
             <Button
                 variant="contained"
                 color="primary"
-                href="https://github.com/SOM3-1"
+                onClick={() => openInNewTab('https://github.com/SOM3-1')}
                 sx={{
                     textTransform: 'none',
                     fontSize: '1.2rem',
                     padding: '12px 24px',
                     backgroundColor: '#6f42c1',
-                    color: 'white', // Set text color to white
+                    color: 'white',
                     '&:hover': {
                         backgroundColor: '#5a34a0',
                     },

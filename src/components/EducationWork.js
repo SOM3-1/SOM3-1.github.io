@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Grid, CardContent } from '@mui/material';
-import TiltCard from './TiltCard'; // Assuming TiltCard is in the same directory
+import TiltCard from './TiltCard'; 
 
 export const EducationWork = () => {
   return (
