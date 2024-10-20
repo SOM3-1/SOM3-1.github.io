@@ -1,1 +1,2 @@
-# SOM3-1.github.io
+## Read ME
+Portfolio repo
