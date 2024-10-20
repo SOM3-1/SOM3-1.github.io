@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, Container, Grid, Button, Link as MuiLink } from '@mui/material';
+import { Box, Typography, Container, Grid } from '@mui/material';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { EducationWork } from './EducationWork';
+import { UseableButtons } from './Buttons';
 
 const ProfileSection = () => {
   const { scrollYProgress } = useScroll();
@@ -97,7 +99,6 @@ const ProfileSection = () => {
                 color: '#ffffff',
                 marginBottom: '1.5rem',
                 textShadow: '0px 0px 10px rgba(124, 114, 255, 0.8)',
-                filter: 'drop-shadow(0 0 1px rgba(255, 255, 0, 0.8))',
               }}
             >
               Dushyanth N <br /> Gowda
@@ -108,11 +109,11 @@ const ProfileSection = () => {
                 <strong>About Me:</strong> Hi, I'm Dushyanth N Gowda, a passionate software engineer with 5 years of experience in front-end, mobile, and software development. Currently, I'm pursuing a Master's in Software Engineering at UT Arlington. I specialize in building scalable applications using React, TypeScript, JavaScript, and Java, focusing on enhancing user experiences and optimizing workflows.
               </Typography>
               <Typography variant="body1" paragraph sx={{ fontSize: '1.2rem', color: '#e0e0e0', marginBottom: '1rem' }}>
-              My journey has taken me from building large-scale healthcare solutions to creating high-quality web and mobile applications across various industries. I’m passionate about exploring new technologies and tackling complex problems. When I’m not coding, I enjoy playing soccer, gaming, or I'm always on Spotify.
+                My journey has taken me from building large-scale healthcare solutions to creating high-quality web and mobile applications across various industries. I’m passionate about exploring new technologies and tackling complex problems. When I’m not coding, I enjoy playing football, gaming, or I'm always on Spotify.
               </Typography>
             </Box>
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={6} sx={{ display: 'flex', justifyContent: 'center' }}>
             <motion.div
               initial={{ scale: 0.9 }}
               whileInView={{ scale: 1 }}
@@ -135,29 +136,9 @@ const ProfileSection = () => {
           </Grid>
         </Grid>
 
-        {/* Second Section: Education and Work Experience */}
-        <Box sx={{ mt: 8 }}>
-          <Typography variant="h4" sx={{ color: '#ffffff', marginBottom: '1.5rem' }}>
-            Education & Work Experience
-          </Typography>
-          <Grid container spacing={6}>
-            <Grid item xs={12} md={6}>
-              <Typography variant="body1" paragraph sx={{ fontSize: '1.2rem', color: '#e0e0e0', marginBottom: '1rem' }}>
-                <strong>Education:</strong> <br />
-                <strong>University of Texas at Arlington</strong>, Master's in Software Engineering (Aug 2024 – Present)
-                <br />
-                <strong>Jain University</strong>, Bachelor's in Computer Science (Aug 2015 – Jul 2019)
-              </Typography>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Typography variant="body1" paragraph sx={{ fontSize: '1.2rem', color: '#e0e0e0', marginBottom: '1rem' }}>
-                <strong>Work Experience:</strong> <br />
-                <strong>Version 1:</strong> React Developer – Aug 2022 – Aug 2024 <br />
-                <strong>Cerner Healthcare Solutions:</strong> Software Engineer 2 – Jul 2021 – Aug 2022, Software Engineer 1 – Jul 2019 – Jul 2021, Software Engineer Intern – Feb 2019 – Jul 2019
-              </Typography>
-            </Grid>
-          </Grid>
-        </Box>
+        <UseableButtons />
+
+        <EducationWork />
       </Container>
     </Box>
   );
