@@ -1,0 +1,614 @@
+{
+  "meta": {
+    "siteName": "Dushyanth Nagesh Gowda",
+    "title": "Dushyanth Nagesh Gowda | Software Engineer",
+    "description": "Software Engineer specializing in high-performance mobile, frontend, and scalable systems. Experience across Tesla, PlayStation, Version1, and Cerner.",
+    "location": "USA",
+    "theme": {
+      "defaultMode": "dark",
+      "accent": "blue"
+    }
+  },
+  "identity": {
+    "name": "Dushyanth Nagesh Gowda",
+    "headline": "Software Engineer | Mobile, Frontend, Performance, Scalable Systems",
+    "tagline": "I build fast, reliable, user-centric products across mobile, web, and backend systems.",
+    "photo": {
+      "enabled": true,
+      "placeholderText": "Add photo here",
+      "path": "/images/profile.jpg"
+    },
+    "resume": {
+      "enabled": true,
+      "placeholderText": "Add resume PDF here",
+      "downloadPath": "/resume/Dushyanth_Gowda_Resume.pdf"
+    }
+  },
+  "contact": {
+    "email": "dush.gowda@gmail.com",
+    "github": "https://github.com/SOM3-1",
+    "linkedin": "https://www.linkedin.com/in/dush-gowda/",
+    "recommendationsUrl": "https://www.linkedin.com/in/dush-gowda/details/recommendations/?detailScreenTabIndex=0"
+  },
+  "education": [
+    {
+      "degree": "Master’s in Software Engineering",
+      "school": "The University of Texas at Arlington",
+      "gpa": "4.0",
+      "status": "In progress"
+    },
+    {
+      "degree": "BTech in Computer Science and Engineering",
+      "school": "Jain University",
+      "gpa": "",
+      "status": "Completed"
+    }
+  ],
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Home"
+    },
+    {
+      "id": "experience",
+      "label": "Experience"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "recommendations",
+      "label": "Recommendations"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ],
+  "sections": {
+    "hero": {
+      "primaryCtas": [
+        {
+          "label": "View Resume",
+          "type": "resume"
+        },
+        {
+          "label": "GitHub",
+          "type": "link",
+          "href": "https://github.com/SOM3-1"
+        },
+        {
+          "label": "LinkedIn",
+          "type": "link",
+          "href": "https://www.linkedin.com/in/dush-gowda/"
+        },
+        {
+          "label": "Contact",
+          "type": "scroll",
+          "targetId": "contact"
+        }
+      ],
+      "stats": [
+        {
+          "label": "Industries",
+          "value": "Gaming, Automotive, Healthcare"
+        },
+        {
+          "label": "Core Focus",
+          "value": "Mobile + Frontend Performance"
+        }
+      ]
+    },
+    "experienceSnapshot": {
+      "title": "Where I’ve worked",
+      "companies": [
+        {
+          "name": "Tesla",
+          "logoPath": "/logos/tesla.svg"
+        },
+        {
+          "name": "Sony Interactive Entertainment (PlayStation)",
+          "logoPath": "/logos/playstation.svg"
+        },
+        {
+          "name": "Version1",
+          "logoPath": "/logos/version1.svg"
+        },
+        {
+          "name": "Cerner",
+          "logoPath": "/logos/cerner.svg"
+        }
+      ]
+    },
+    "workDomains": {
+      "title": "What I build",
+      "domains": [
+        {
+          "label": "Mobile Apps",
+          "description": "React Native apps with performance, offline-ready patterns, notifications, and native integrations."
+        },
+        {
+          "label": "Web Platforms",
+          "description": "Product-grade web apps with robust UI architecture, state management, and accessibility."
+        },
+        {
+          "label": "Desktop Systems",
+          "description": "Win32/MFC enhancements and stability improvements for enterprise desktop applications."
+        },
+        {
+          "label": "Backend and BFF",
+          "description": "TypeScript/Node services, BFF patterns, and GraphQL APIs that simplify product integration."
+        },
+        {
+          "label": "Microservices",
+          "description": "Java/TS services focused on reliability, observability, and performance."
+        },
+        {
+          "label": "Real-time Systems",
+          "description": "SSE/WebSocket patterns for live updates and streaming experiences."
+        },
+        {
+          "label": "AI-driven Features",
+          "description": "FastAPI services and ML inference pipelines for predictive insights."
+        }
+      ]
+    }
+  },
+  "experience": [
+    {
+      "company": "Tesla",
+      "companyLogoPath": "/logos/tesla.svg",
+      "title": "Software Engineering Intern",
+      "location": "Palo Alto, CA",
+      "start": "2025-08",
+      "end": "2025-12",
+      "tags": [
+        "React/React Native",
+        "BFF",
+        "GraphQL",
+        "TypeScript",
+        "Observability"
+      ],
+      "summary": "Worked on Tesla Mobile App experiences for service and roadside, delivering product features across BFF and UI layers and improving reliability and observability.",
+      "highlights": [
+        "Integrated Glass Selector for Model Y Refresh and Cybertruck flows.",
+        "Added Insurance Selector for glass repair experiences.",
+        "Built and extended a BFF architecture using TypeScript, Express, and GraphQL.",
+        "Used Splunk logs to debug, instrument, and improve production behavior.",
+        "Enhanced Tesla Assist by fixing bugs and improving user experience and reliability."
+      ],
+      "tech": [
+        "TypeScript",
+        "React/React Native",
+        "Node.js",
+        "Express",
+        "GraphQL",
+        "Splunk"
+      ]
+    },
+    {
+      "company": "Sony Interactive Entertainment (PlayStation)",
+      "companyLogoPath": "/logos/playstation.svg",
+      "title": "Software Engineering Intern",
+      "location": "San Mateo, CA",
+      "start": "2025-05",
+      "end": "2025-08",
+      "tags": [
+        "PS5 Console",
+        "Real-time UI",
+        "React/React Native",
+        "TypeScript Migration"
+      ],
+      "summary": "Worked on PS5 console social experience features used by millions of players worldwide.",
+      "highlights": [
+        "Developed the Active Speaker Indicator for PS5 voice chat, released globally.",
+        "Migrated voice chat modules from JavaScript to TypeScript to improve reliability and maintainability.",
+        "Participated in SummerJam hackathon and built prototypes integrating OpenAI and related tools."
+      ],
+      "tech": [
+        "TypeScript",
+        "JavaScript",
+        "Console UI",
+        "Tooling"
+      ]
+    },
+    {
+      "company": "Version1",
+      "companyLogoPath": "/logos/version1.svg",
+      "title": "React Developer (Foundations Team)",
+      "location": "Remote / On-site",
+      "start": "2022-08",
+      "end": "2024-08",
+      "tags": [
+        "Web",
+        "Angular",
+        "D3",
+        "SSE",
+        "Automation",
+        "React Native"
+      ],
+      "summary": "Built internal and customer-facing tools and shipped a major React Native migration as a sole developer under tight deadlines.",
+      "highlights": [
+        "Built a cloud discovery / portfolio assessment tool using Angular, TypeScript, and SCSS.",
+        "Developed interactive data visualizations using D3 for insight-heavy workflows.",
+        "Implemented Server-Sent Events for live updates and streaming progress.",
+        "Automated cycle-time calculations and reporting using GitLab automation and cron jobs.",
+        "Migrated the Dublin Airport mobile app from Xamarin to React Native within one month as the sole developer.",
+        "Rehauled UI/UX, improved performance, added geofencing, push notifications, real-time updates, and chatbot integration."
+      ],
+      "tech": [
+        "React",
+        "React Native",
+        "Angular",
+        "TypeScript",
+        "SCSS",
+        "D3.js",
+        "SSE",
+        "GitLab CI",
+        "Cron"
+      ]
+    },
+    {
+      "company": "Cerner",
+      "companyLogoPath": "/logos/cerner.svg",
+      "title": "Software Engineer (Intern → SE I → SE II)",
+      "location": "Bengaluru, India",
+      "start": "2019-02",
+      "end": "2022-08",
+      "tags": [
+        "Healthcare",
+        "Desktop",
+        "Java Microservices",
+        "Performance",
+        "Testing"
+      ],
+      "summary": "Worked on healthcare systems across desktop and web surfaces, optimizing performance and improving stability across critical workflows.",
+      "highlights": [
+        "Started as an intern and contributed to refactoring initiatives.",
+        "Enhanced Win32 desktop application functionality using C++ and MFC.",
+        "Enhanced Java microservices supporting core order workflows.",
+        "Optimized CCL scripts to improve performance in key order processing scenarios.",
+        "Worked in the Orders team across PowerOrders and MPages modules (Orders, Home Medication, PDMP).",
+        "Built web UI components using React and Mithril.js.",
+        "Implemented unit testing using JUnit, Jest, and Karma.",
+        "Built automation using Selenium and internal testing tooling.",
+        "Received the Night of the Town award."
+      ],
+      "tech": [
+        "C++",
+        "MFC",
+        "Java",
+        "CCL",
+        "React",
+        "Mithril.js",
+        "JUnit",
+        "Jest",
+        "Karma",
+        "Selenium"
+      ]
+    }
+  ],
+  "projects": {
+    "featured": [
+      {
+        "id": "moneymind",
+        "title": "MoneyMind",
+        "category": "AI Finance Platform",
+        "oneLiner": "AI-powered personal finance platform spanning mobile, backend APIs, and ML inference.",
+        "tags": [
+          "React Native",
+          "Node.js",
+          "FastAPI",
+          "XGBoost",
+          "Firebase"
+        ],
+        "repoLinks": [
+          {
+            "label": "Mobile App",
+            "url": "https://github.com/SOM3-1/MoneyMind"
+          },
+          {
+            "label": "Backend API",
+            "url": "https://github.com/SOM3-1/money-mind-api"
+          },
+          {
+            "label": "AI Service",
+            "url": "https://github.com/SOM3-1/ai-finance"
+          },
+          {
+            "label": "Supporting Backend",
+            "url": "https://github.com/SOM3-1/money-mind-backend"
+          }
+        ],
+        "details": [
+          "Mobile-first product experience with finance workflows.",
+          "Backend APIs designed for secure data handling and scalable operations.",
+          "AI service for predictive insights powered by an XGBoost model."
+        ]
+      },
+      {
+        "id": "confernet",
+        "title": "ConferNet",
+        "category": "Conference Platform",
+        "oneLiner": "Role-based conference management platform with web UI and backend services.",
+        "tags": [
+          "React",
+          "Firebase",
+          "Node.js",
+          "Express"
+        ],
+        "repoLinks": [
+          {
+            "label": "Frontend (UI)",
+            "url": "https://github.com/SOM3-1/Confernet-UI"
+          },
+          {
+            "label": "Backend (API)",
+            "url": "https://github.com/SOM3-1/ConferNet-api"
+          }
+        ],
+        "details": [
+          "Role-based experiences for organizers, speakers, and attendees.",
+          "Backend services for event and user workflows."
+        ]
+      },
+      {
+        "id": "global-cursors",
+        "title": "Global Cursors",
+        "category": "Real-time WebSockets",
+        "oneLiner": "Real-time cursor sharing experience with a WebSocket backend.",
+        "tags": [
+          "WebSockets",
+          "Node.js",
+          "Real-time UI"
+        ],
+        "repoLinks": [
+          {
+            "label": "Frontend",
+            "url": "https://github.com/SOM3-1/global-cursors"
+          },
+          {
+            "label": "Backend",
+            "url": "https://github.com/SOM3-1/cursors-backend"
+          }
+        ],
+        "details": [
+          "Real-time presence and cursor visualization.",
+          "Backend connection management for live sessions."
+        ]
+      },
+      {
+        "id": "rn-format-kit",
+        "title": "react-native-format-kit",
+        "category": "NPM Package",
+        "oneLiner": "Formatting utilities for React Native inputs and display use-cases.",
+        "tags": [
+          "React Native",
+          "TypeScript",
+          "Library"
+        ],
+        "repoLinks": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/SOM3-1/react-native-format-kit"
+          }
+        ],
+        "details": [
+          "Reusable formatting utilities for clean and consistent UI input experiences."
+        ]
+      }
+    ],
+    "more": [
+      {
+        "id": "linkedin-promo-remover",
+        "title": "LinkedIn Promotion Remover",
+        "category": "Browser Extension",
+        "oneLiner": "Browser extension to reduce promoted content in LinkedIn browsing experiences.",
+        "tags": [
+          "Extension",
+          "Automation"
+        ],
+        "repoLinks": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/SOM3-1/LinkedIn_Promotion_Remover"
+          }
+        ]
+      },
+      {
+        "id": "delete-all-your-tweets",
+        "title": "Delete All Your Tweets",
+        "category": "Browser Extension",
+        "oneLiner": "Automation tool for bulk cleanup actions on X (Twitter).",
+        "tags": [
+          "Extension",
+          "Automation"
+        ],
+        "repoLinks": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/SOM3-1/delete-all-your-tweets"
+          }
+        ]
+      },
+      {
+        "id": "studynest",
+        "title": "StudyNest",
+        "category": "Mobile App",
+        "oneLiner": "React Native app for organizing and finding study groups.",
+        "tags": [
+          "React Native",
+          "Firebase"
+        ],
+        "repoLinks": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/SOM3-1/StudyNest"
+          }
+        ]
+      },
+      {
+        "id": "random-hex-color-generator",
+        "title": "random-hex-color-generator",
+        "category": "NPM Package",
+        "oneLiner": "Utility package for generating random hex colors for UI and tooling.",
+        "tags": [
+          "TypeScript",
+          "Library"
+        ],
+        "repoLinks": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/SOM3-1/random-hex-color-generator"
+          }
+        ]
+      },
+      {
+        "id": "tkinter-football-db",
+        "title": "TkinterFootballDB",
+        "category": "Desktop App",
+        "oneLiner": "Desktop project demonstrating UI + data workflows using Tkinter.",
+        "tags": [
+          "Python",
+          "Desktop"
+        ],
+        "repoLinks": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/SOM3-1/TkinterFootballDB"
+          }
+        ]
+      }
+    ],
+    "excluded": [
+    ]
+  },
+  "skills": {
+    "displayMode": "compact-reveal",
+    "groups": [
+      {
+        "group": "Frontend",
+        "items": [
+          "React",
+          "React Native",
+          "Angular",
+          "Redux",
+          "Material UI",
+          "D3.js",
+          "Accessibility",
+          "Performance Optimization",
+          "TanStack Query",
+          "Redux Toolkit",
+          "Redux Saga"
+        ]
+      },
+      {
+        "group": "Languages",
+        "items": [
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "Java",
+          "C/C++",
+          "SQL",
+          "HTML",
+          "CSS",
+          "SCSS"
+        ]
+      },
+      {
+        "group": "Testing and Tooling",
+        "items": [
+          "Jest",
+          "React Testing Library",
+          "Playwright",
+          "Selenium",
+          "JUnit 4",
+          "Webpack",
+          "Babel"
+        ]
+      },
+      {
+        "group": "Backend and Cloud",
+        "items": [
+          "Node.js",
+          "Express",
+          "GraphQL",
+          "REST",
+          "FastAPI",
+          "Firebase",
+          "MongoDB",
+          "SQL Datastores",
+          "Azure",
+          "Git",
+          "Splunk",
+          "CI/CD",
+          "GitHub Actions",
+          "Jenkins",
+          "Maven",
+          "Event-Driven Architecture",
+          "Real-time Systems",
+          "Mobile Analytics and Engagement (Firebase, Xtremepush)",
+          "Push Notifications"
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "mode": "manual-curation",
+    "note": "Add curated excerpts from LinkedIn recommendations. Keep each quote short (1–2 lines). Provide a link to the full recommendation.",
+    "items": [
+      {
+        "name": "Luis Miguel Murillo López",
+        "title": "Solutions Architect",
+        "company": "Version1",
+        "quote": "Placeholder quote from LinkedIn recommendation.",
+        "sourceUrl": "https://www.linkedin.com/in/dush-gowda/details/recommendations/?detailScreenTabIndex=0"
+      },
+      {
+        "name": "Karen Wilson",
+        "title": "Senior Delivery Manager",
+        "company": "Version1",
+        "quote": "Placeholder quote from LinkedIn recommendation.",
+        "sourceUrl": "https://www.linkedin.com/in/dush-gowda/details/recommendations/?detailScreenTabIndex=0"
+      },
+      {
+        "name": "Suchitra Unnikrishnan",
+        "title": "Scrum Master / Project Lead",
+        "company": "Version1",
+        "quote": "Placeholder quote from LinkedIn recommendation.",
+        "sourceUrl": "https://www.linkedin.com/in/dush-gowda/details/recommendations/?detailScreenTabIndex=0"
+      }
+    ]
+  },
+  "uiBehavior": {
+    "projects": {
+      "interaction": "hover-or-tap-reveal",
+      "defaultCardDensity": "minimal",
+      "detailsReveal": "expand-in-place-on-desktop-and-bottom-sheet-on-mobile"
+    },
+    "skills": {
+      "interaction": "filter-and-reveal",
+      "defaultCollapsed": true
+    },
+    "animations": {
+      "library": "framer-motion",
+      "style": "rich-but-subtle",
+      "rules": [
+        "No heavy parallax on mobile",
+        "Prefer opacity/translate/scale micro-interactions",
+        "Keep animations under 300ms for most UI interactions",
+        "Respect prefers-reduced-motion"
+      ]
+    },
+    "optional3D": {
+      "enabled": false,
+      "notes": "If enabled later, use a subtle hero background via React Three Fiber and ensure no performance regressions."
+    }
+  }
+}
